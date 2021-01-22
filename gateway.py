@@ -56,11 +56,7 @@ class ProcessPayment(Resource):
             else:
                 count+=1
         return "Payment unsuccessfull try again"
-    
-
-
-    
-    
+   
     def post(self):
         data=request.get_json()
         details={"CreditCardNumber":data["CreditCardNumber"],"CardHolder":data["CardHolder"],"ExpirationDate":data["ExpirationDate"],"SecurityCode":data["SecurityCode"],"Amount":data["Amount"]}
