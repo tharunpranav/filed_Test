@@ -16,4 +16,4 @@ def checking_url():
     except:
         return "userdefind exception:Invalid input please enter input in given format"
 
-app.run(port=5000)
+app.run(debug=True)
