@@ -12,7 +12,7 @@ class ProcessPayment(Resource):
                 try:
                     expiredate = datetime.strptime(details['ExpirationDate'],"%d/%m/%Y")
                 except:
-                    return " Entered date is not in correct format EX:DD/MM/YYYY "
+                    return " Entered date  not in correct format EX:DD/MM/YYYY  please try again"
 
                 present = datetime.now()
                 if expiredate.date() > present.date():
