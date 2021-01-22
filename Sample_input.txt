@@ -1,0 +1,26 @@
+Input--1
+{
+    "CreditCardNumber":"1234567896",
+    "CardHolder":"varun",
+    "ExpirationDate":"05/05/2021",
+    "SecurityCode":""222,
+    "Amount":5000
+}
+
+Input--2
+{
+    "CreditCardNumber":"9632587412",
+    "CardHolder":"sandy",
+    "ExpirationDate":"18/05/2023",
+    "SecurityCode":"",
+    "Amount":5
+}
+
+Input--3
+{
+    "CreditCardNumber":"8523697412",
+    "CardHolder":"jesi",
+    "ExpirationDate":"02/09/2023",
+    "SecurityCode":"555",
+    "Amount":52
+}
